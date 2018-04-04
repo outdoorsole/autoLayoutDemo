@@ -30,11 +30,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnN-zU-BU0">
+                                <rect key="frame" x="148.5" y="30" width="23" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👻" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejT-pF-rFa">
+                                <rect key="frame" x="10" y="449" width="23" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ejT-pF-rFa" secondAttribute="bottom" constant="10" id="ASA-w2-8X4"/>
+                            <constraint firstItem="70q-BG-zzm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="IR2-2z-pVL"/>
+                            <constraint firstItem="dnN-zU-BU0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Q0b-jF-mZd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="70q-BG-zzm" secondAttribute="bottom" constant="10" id="R9l-Jc-RHi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="70q-BG-zzm" secondAttribute="trailing" constant="10" id="Zla-Xh-QQj"/>
+                            <constraint firstItem="ejT-pF-rFa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="gPu-WA-gU6"/>
+                            <constraint firstItem="dnN-zU-BU0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iRV-Dh-rIy"/>
                             <constraint firstItem="KUk-dW-NXN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oTa-LF-KlO"/>
                             <constraint firstItem="KUk-dW-NXN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qbR-O6-BRM"/>
                         </constraints>
@@ -43,6 +60,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="39.375" y="38.75"/>
         </scene>
     </scenes>
 </document>
